@@ -1,9 +1,4 @@
-# ================================================================
-# FULL FINAL SCRIPT — Hybrid BiLSTM + Transformer + Attention
-# Disease + Severity Prediction using Symptoms + Medical History
-# ================================================================
 
-# ---------------------- Imports ----------------------
 import os, random
 import numpy as np
 import pandas as pd
@@ -248,3 +243,4 @@ plt.show()
 # ---------------------- Reports ----------------------
 print("\nSeverity Report:\n",
       classification_report(y_s_te, pred_s, target_names=le_s.classes_))
+
